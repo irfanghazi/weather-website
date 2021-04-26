@@ -15,7 +15,7 @@ console.log(__dirname);
 
 // provide the final path after express
 const app = express();
-
+console.log(app);
 // Define path for express config
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
